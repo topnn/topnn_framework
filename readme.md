@@ -1,4 +1,4 @@
-Framework description and usage (Beta)
+Framework description and usage (Anonymized version for NeurIPS review)
 --------------------------------
 
 ![topology change](https://github.com/topnn/topnn_framework/blob/master/pics/topology_change.png)
