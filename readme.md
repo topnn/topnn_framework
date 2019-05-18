@@ -1,7 +1,7 @@
 Framework description and usage (Beta) 
 --------------------------------
 
-![topology change](link to picture)
+![topology change](https://github.com/topnn/topnn_framework/blob/master/pics/topology_change.png)
 
 
 # Requirements
