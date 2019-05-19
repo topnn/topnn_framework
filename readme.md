@@ -45,4 +45,4 @@ Calculate Betti numbers for networks trained on D-II dataset of size 10 (layers)
 
 ### Trials:
 
-Simulation results are large (100Gb) will be uploaded soon. 
+Simulation results are large (>100Gb),  will be uploaded soon. 
