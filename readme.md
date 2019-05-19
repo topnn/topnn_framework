@@ -4,9 +4,9 @@
 
 --------------------------------------------
 
-![topology change](https://github.com/topnn/topnn_framework/blob/master/pics/topology_change.png)
-
-
+![topology change](https://github.com/topnn/topnn_framework/blob/master/pics/topology_change.png)    
+        
+        
 # Requirements
 Python 3.5,
 Tensorflow,
