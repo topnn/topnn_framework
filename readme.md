@@ -13,7 +13,7 @@ Tensorflow,
 Julia 0.64,
 [Eirene](https://github.com/Eetion/Eirene.jl) topological data analysis package
 
-(once Julia and Eirene are installed, update `./julia_include/include_eirene_run.jl` with the link to local Eirene installation, and update `./transformers/excel_to_betti_feeder_parallel.py` with a link to Julia executable)
+(once Julia and Eirene are installed, update `./julia_include/include_eirene_run.jl` with the path to local Eirene installation, and update `./transformers/excel_to_betti_feeder_parallel.py` with the path to Julia executable)
 
 # Training a model
 * Use `compute.py` running  `train_2_excel_2D` pipeline for two dimensional data sets and `train_2_excel_3D` for three dimensional data sets.
