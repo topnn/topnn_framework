@@ -23,19 +23,18 @@ Julia 0.64,
 For each successful training attempt (perfect classification of the data set) log file (`/data/<dataset-type>/<architecture>/good_results.txt`) is update. And the resulting model and output of each layer of the network is saved in a new folder named by the current time (`/data/<dataset-type>/<architecture>/<data>`). Betti numbers calculation used log file and accessed the saved model to run Betti numbers calculation.  
 
 ## Example:
-Train on D-II data set, using 10 layers with 25  neurons, with `LeakyRelu` activation. With 0.2 learning rate and 12000 training epochs, run 80 trials and report progress every 1000 epochs.  
+Train on D-II data set. Using network of size 10 layers with 25 neurons each, and `LeakyRelu` activation. Set 0.2 learning rate and 12000 training epochs, run 80 trials and report progress every 1000 epochs:
 
 `computer.py --pipeline_name train_2_excel_3D          --output ./data/rings_9/ --input-tf-dataset ./data/rings_9/rings_9.tfrecords --model 10_by_25 --activation_type LeakyRelu --trials 80 --learning_rate 0.02 --training_epochs 12000 --summary_freq 1000`
 
 # Calculate Betti numbers
-
-* Use `compute.py` running  `texcel_2_betti` pipeline
+* Once a few well trained neural networks have been accumulated use `compute.py` running  `texcel_2_betti` pipeline to compute Betti numbers
 * Calculated Betti numbers for successfully trained neural networks with given architecture and activation type. Split the calculation in parallel on 10 cores. Each core limited to 10 Gb memory.  
 
 * Run `computer.py` with appropriately set parameters: number of neighbors for nearest neighbor graph construction  ( the scale at wich to build Vietoris-Rips complex is fixed in Eirene call at `./julia_include/julia_aux2`.  
 
 ## Example:
-Calculate Betti numbers for networks of size 10 layers with 25 neurons, with `LeakyRelu` activation, trained on D-II dataset. The calculations proceed on 1/4 subsample of the data, and compute Betti numbers zero and one.
+Calculate Betti numbers for networks trained on D-II dataset of size 10 layers with 25 neurons each with `LeakyRelu` activation. The calculations proceed on 1/4 subsample of the data set, and compute Betti numbers zero and one for class A (`cat2`).
 
 `computer.py --pipeline_name excel_2_betti --output ./data/rings_9/ --input-tf-dataset ./data/rings_9/rings_9.tfrecords --model 10_by_25 --activation_type LeakyRelu --trials 80 --cat2  --divisor 4 --neighbors 35 --betti_max 1 --read_excel_from LeakyRelu`
 
