@@ -15,7 +15,7 @@ Julia 0.64,
 (update `./julia_include/include_eirene_run.jl` with the link to local Eirene installation, as well as `./transformers/excel_to_betti_feeder_parallel.py` with a link to Julia executable)
 
 # Training a model
-* Use `compute.py` running  `train_2_excel_2D` pipeline for two dimensional data set and `train_2_excel_3D` for three dimensional data sets.
+* Use `compute.py` running  `train_2_excel_2D` pipeline for two dimensional data sets and `train_2_excel_3D` for three dimensional data sets.
 * Specifies which data set (D-I `circles_type_8`, D-II `rings_9`, D-III `spheres_9`) and what architecture to use (size of the network and the activation type)
 * Set the number of training epochs, learning rate
 * Set the overall number of trials.
