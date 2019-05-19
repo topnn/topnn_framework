@@ -34,7 +34,7 @@ Train on D-II data set. Using network of size 10 (layers) by 25 (neurons each), 
 * Run `computer.py` with appropriately set parameters: number of neighbors for nearest neighbor graph construction  ( the scale at wich to build Vietoris-Rips complex is fixed in Eirene call at `./julia_include/julia_aux2`.  
 
 ## Example:
-Calculate Betti numbers for networks trained on D-II dataset of size 10 (layers) by 25 (neurons each) with `LeakyRelu` activation. The calculations proceed on a subsample of the data set, which is one fouth of the original data set size. Compute Betti numbers zero and one for class A (`cat2`):
+Calculate Betti numbers for networks trained on D-II dataset of size 10 (layers) by 25 (neurons each) with Leaky Relu activation. The calculations proceed on a subsample of the data set, which is one fouth of the original data set size. Compute Betti numbers zero and one for class A (`cat2`):
 
 `computer.py --pipeline_name excel_2_betti --output ./data/rings_9/ --input-tf-dataset ./data/rings_9/rings_9.tfrecords --model 10_by_25 --activation_type LeakyRelu --trials 80 --cat2  --divisor 4 --neighbors 35 --betti_max 1 --read_excel_from LeakyRelu`
 
