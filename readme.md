@@ -16,7 +16,7 @@ Julia 0.64,
 
 # Training a model
 * Use `compute.py` running  `train_2_excel_2D` pipeline for two dimensional data sets and `train_2_excel_3D` for three dimensional data sets.
-* Specify which data set to use (D-I `circles_type_8`, D-II `rings_9`, D-III `spheres_9`) and what architecture to train (ize of the network and the activation type e.g. `10_by_15`, `Relu`)
+* Specify which data set to use (D-I `circles_type_8`, D-II `rings_9`, D-III `spheres_9`) and what architecture to train (i.e. size of the network and the activation type e.g. `10_by_15`, `Relu`)
 * Set the number of training epochs and learning rate
 * Set the overall number of trials and frequency of log reports
 
