@@ -20,7 +20,7 @@ Julia 0.64,
 * Set the number of training epochs, learning rate
 * Set the overall number of trials.
 
-For each successful training attempt (perfect classification of the data set) log file (`/data/<dataset-type>/<architecture>/good_results.txt`) is update. And the resulting model and output of each layer of the network is saved in a new folder named by the current time (`/data/<dataset-type>/<architecture>/<data>`). Betti numbers calculation used log file and accessed the saved model to run Betti numbers calculation.  
+For each successful training attempt (perfect classification of the data set) log file (`/data/<dataset-type>/<architecture>/good_results.txt`) is updated. And the resulting model and output of each layer of the network are saved in a new folder whose name is the current time (`/data/<dataset-type>/<architecture>/<activation-type>/<current-time>`) and whose location reflects data set it was tained and the architecture. Betti numbers calculation pipeline will use `good_results.txt` log file to accesse those stored well trained models to run betti numbers calculation on their output. 
 
 ## Example:
 Train on D-II data set. Using network of size 10 layers with 25 neurons each, and `LeakyRelu` activation. Set 0.2 learning rate and 12000 training epochs, run 80 trials and report progress every 1000 epochs:
