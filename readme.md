@@ -1,7 +1,7 @@
 # Framework description and usage (Beta) 
 --------------------------------------------
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Anonymized version for NeurIPS review ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Anonymized version for NeurIPS review ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 
 
 ![topology change](https://github.com/topnn/topnn_framework/blob/master/pics/topology_change.png)
