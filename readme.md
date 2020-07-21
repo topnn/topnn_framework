@@ -1,4 +1,4 @@
-# Framework description and usage (Beta) 
+# Framework description and usage (The code was developed with the help of Andrey Zhitnikov and is under the responsibility of Gregory Naisat. Please send all questions, inqueries bug reports to me at: gregn@uchicago.edu) 
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Anonymized version ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 
@@ -17,7 +17,7 @@ Julia 0.64,
 
 # Training a model
 * Use `compute.py` running  `train_2_excel_2D` pipeline for two dimensional data sets and `train_2_excel_3D` for three dimensional data sets.
-* Specify which data set to use (D-I `circles_type_8`, D-II `rings_9`, D-III `spheres_9`) and what architecture to train (i.e. size of the network and the activation type e.g. `10_by_15`, `Relu`)
+* Specify which data set to use (D-I `circles_type_8`, D-II `rings_9`, D-III `spheres_9`) and what architecture to train (i.e. size of the network and the activation type e.g. `10u_by_15`, `Relu`)
 * Set the number of training epochs and learning rate
 * Set the overall number of trials and frequency of log reports
 
@@ -44,6 +44,6 @@ Calculate Betti numbers for networks trained on D-II dataset of size 10 (layers)
 * Check generated `.html` file with `plotly` data set plot.
 
 
-### Trials:
+### Trials (updated July 21, 2020):
 
-Simulation results are large (>100Gb),  will be uploaded soon. 
+Simulation results are gradually uploaded into [google drive](https://drive.google.com/drive/folders/1NhDn5r6Jm4c5Q71ciaLXAEpCZ1-tQfeu?usp=sharing)
