@@ -1,4 +1,6 @@
-# Framework description and usage (The code was developed with the help of Andrey Zhitnikov and is under the responsibility of Gregory Naisat. Please send all questions, inqueries bug reports to me at: gregn@uchicago.edu) 
+# Framework description and usage 
+
+**The code was developed with the help of Andrey Zhitnikov and is under the responsibility of Gregory Naisat. Please send all questions, inqueries bug reports to me at: gregn@uchicago.edu**
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Anonymized version ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 
