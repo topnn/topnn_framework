@@ -44,7 +44,7 @@ Calculate Betti numbers for networks trained on D-II dataset of size 10 (layers)
 # Visualize Data set
 * Run `computer.py` with appropriate pipeline (currently there one basic pipeline to run all the visualisation `visualize_tfrecords_dataset.py`, the pipeline draw 2d projection of the dataset. Example of a call:
 ```
---pipeline
+computer.py --pipeline
 visualize_tfrecords_dataset
 --input-tf-dataset
 ./data/spheres_9/spheres_9.tfrecords
