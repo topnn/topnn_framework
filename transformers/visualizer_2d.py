@@ -126,7 +126,7 @@ class Visualizer2D(Transformer):
                                                 name='samples')
 
                 data = [trace_training, trace_test, trace_valid]
-                layout = dict(title='Training, Validation, Testing',
+                layout = dict(title='Data Visualization',
                               width=900, height=900, autosize=False, showlegend= False)
 
                 fig = go.Figure(data=data, layout=layout)
